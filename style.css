@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: rgb(177, 173, 173);
+    width: 600px;
+    height: 250px;
+    border-radius: 10px;
+    margin: 200px 200px 500px 200px;
+    padding-top: 20px;
+}
+div{
+    justify-content: stretch;
+}
+.red{
+    background-color: red;
+    width: 550px;
+    height: 20px;
+   
+}
+.blue{
+    background-color: blue;
+    width: 252px;
+    height: 20px;
+    color: white;
+    
+}
+.orange{
+    background-color: orange;
+    width: 104px;
+    height: 10px;
+    
+}
+.red, 
+.blue,
+.orange{
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
